@@ -1,7 +1,7 @@
 # SpotifyDB_example
 
 
-prerequisiti:
+Prerequisiti:
 
 - 1 server linux
 - 1 server mysql sul server linux
