@@ -17,7 +17,7 @@ LOCK TABLES, EXECUTE, CREATE VIEW
 
 Installazione DB:
 
-1 scarica sul server il file che contiene l'intero DB "SpotifyDB.sql"
-2 fare accesso al sever mysql e creare il DB SpotifyDB
-3 uscire dal prompt di mysql e importare il DB con il comando: mysql -u utente_mysql -p SpotifyDB < SpotifyDB.sql
-4 rifare l'accesso al server mysql, seleziona il db SpotifyDB e fare un "show tables;" per vedere se ha importato correttamente le tabelle
+- scarica sul server il file che contiene l'intero DB "SpotifyDB.sql"
+- fare accesso al sever mysql e creare il DB SpotifyDB
+- uscire dal prompt di mysql e importare il DB con il comando: mysql -u utente_mysql -p SpotifyDB < SpotifyDB.sql
+- rifare l'accesso al server mysql, seleziona il db con "USE SpotifyDB;" e fare un "show tables;" per vedere se ha importato correttamente le tabelle
