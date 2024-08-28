@@ -55,3 +55,6 @@ id_playlist (foreign key)
 tabella playlist:
 id_playlist (primary key)
 titolo_playlist
+
+
+![Untitled](https://github.com/user-attachments/assets/c7028059-417a-4658-930b-de964112e96f)
