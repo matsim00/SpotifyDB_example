@@ -23,17 +23,6 @@ Installazione DB:
 - rifare l'accesso al server mysql, seleziona il db con "USE SpotifyDB;" e fare un "show tables;" per vedere se ha importato correttamente le tabelle
 
 
-select di esempio per prendere tutte le canzoni di tedua:
-
-SELECT artisti.nome_artista, canzoni.titolo_canzone, album.nome_album, album.data_uscita  
-FROM artisti  
-JOIN album on album.id_artista = artisti.id_artista  
-JOIN canzoni on canzoni.id_album = album.id_album  
-WHERE artisti.nome_artista = "tedua" 
-ORDER BY album.data_uscita DESC;
-
-
-
 STRUTTURA DATABASE E TABELLE:
 
 tabella artisti:
@@ -58,3 +47,14 @@ titolo_playlist
 
 
 ![Untitled](https://github.com/user-attachments/assets/c7028059-417a-4658-930b-de964112e96f)
+
+
+
+select di esempio per prendere tutte le canzoni di tedua:
+
+SELECT artisti.nome_artista, canzoni.titolo_canzone, album.nome_album, album.data_uscita  
+FROM artisti  
+JOIN album on album.id_artista = artisti.id_artista  
+JOIN canzoni on canzoni.id_album = album.id_album  
+WHERE artisti.nome_artista = "tedua" 
+ORDER BY album.data_uscita DESC;
