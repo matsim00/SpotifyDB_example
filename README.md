@@ -19,10 +19,12 @@
 - mysql -u utente_mysql -p SpotifyDB < SpotifyDB.sql
 
 5. Rientra nel server MySQL, seleziona il database con:
-  - USE SpotifyDB;
+   ```sql
+   USE SpotifyDB;
 
 6. Per verificare che le tabelle siano state importate correttamente, esegui:
-  - SHOW TABLES; 
+   ```sql
+   SHOW TABLES; 
 
 ## Struttura del Database e Tabelle
 
@@ -58,7 +60,4 @@ FROM artisti
 JOIN album ON album.id_artista = artisti.id_artista
 JOIN canzoni ON canzoni.id_album = album.id_album
 WHERE artisti.nome_artista = "tedua"
-ORDER BY album.data_uscita DESC;
-JOIN canzoni on canzoni.id_album = album.id_album  
-WHERE artisti.nome_artista = "tedua" 
 ORDER BY album.data_uscita DESC;
