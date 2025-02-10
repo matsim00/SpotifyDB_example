@@ -7,7 +7,7 @@
 - **1 utente MySQL** con i seguenti permessi:
   - `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `CREATE`, `DROP`, `RELOAD`, `REFERENCES`, `INDEX`, `ALTER`, `SHOW DATABASES`, `CREATE TEMPORARY TABLES`, `LOCK TABLES`, `EXECUTE`, `CREATE VIEW`
 
-## Installazione del DB
+## Import del DB
 
 1. Scarica il file che contiene l'intero database, **`SpotifyDB.sql`**, sul server.
 2. Accedi al server MySQL e crea il database **SpotifyDB**: 
