@@ -19,12 +19,10 @@
 - mysql -u utente_mysql -p SpotifyDB < SpotifyDB.sql
 
 5. Rientra nel server MySQL, seleziona il database con:
-  ````sql
-  USE SpotifyDB;
+  - USE SpotifyDB;
 
 6. Per verificare che le tabelle siano state importate correttamente, esegui:
-  `````sql
-  SHOW TABLES; 
+  - SHOW TABLES; 
 
 ## Struttura del Database e Tabelle
 
