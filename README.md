@@ -16,7 +16,8 @@
    CREATE DATABASE SpotifyDB;
 
 4. Esci dal prompt di MySQL e importa il database con il comando:
-- mysql -u utente_mysql -p SpotifyDB < SpotifyDB.sql
+   ```sql
+   mysql -u utente_mysql -p SpotifyDB < SpotifyDB.sql
 
 5. Rientra nel server MySQL, seleziona il database con:
    ```sql
