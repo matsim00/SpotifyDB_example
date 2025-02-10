@@ -12,16 +12,19 @@
 1. Scarica il file che contiene l'intero database, **`SpotifyDB.sql`**, sul server.
 2. Accedi al server MySQL e crea il database **SpotifyDB**:
    ```sql
-   - mysql -u utente_mysql -p
-   - CREATE DATABASE SpotifyDB;
+   mysql -u utente_mysql -p
+   CREATE DATABASE SpotifyDB;
 
 3. Esci dal prompt di MySQL e importa il database con il comando:
 - mysql -u utente_mysql -p SpotifyDB < SpotifyDB.sql
 
 4. Rientra nel server MySQL, seleziona il database con:
-- USE SpotifyDB;
+  ```sql
+  USE SpotifyDB;
 
-5. Esegui un SHOW TABLES; per verificare che le tabelle siano state importate correttamente.
+5. Per verificare che le tabelle siano state importate correttamente, Esegui:
+  ```sql
+  SHOW TABLES; 
 
 ## Struttura del Database e Tabelle
 
